@@ -12,7 +12,7 @@ on:
   workflow_dispatch:
   # Run job on 16:15UTC/00:15CST daily
   schedule:
-  - cron: "25 17 * * *"
+  - cron: "15 16 * * *"
   
 permissions:
   contents: read
